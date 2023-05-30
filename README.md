@@ -45,3 +45,8 @@ zjednodušiť, väčšina našich výpočtov, ako aj tých na internete, je inst
 Testovanie Solovay-Strassenovho testu prebehlo výhradne pomocou prvočíselných tabuliek, pretože na internete
 podobná kalkulačka Solovay-Strassenova testu na porovnanie neexistuje.
 
+Poznámka k funkcii pow():
+Funkcia pow má pár výhod nad regulárnim **, napríklad voliteľný tretí argument, ktorý vám umožňuje určiť moduliť priamo. Preto 
+je to podľa mňa lepšia voľba. Ohľadom math.pow(), v tomto zmysle zvládne pow() oveľa viac, ale vďaka tomu, že máme veľmi 
+dobre definovaný vstup, nepotrebujeme flexibilnejšie funkcie, a takisto importujeme menej.
+
